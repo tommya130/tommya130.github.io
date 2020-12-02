@@ -1,0 +1,122 @@
+body{
+    text-align: justify;
+    background-color: 	#ACD6FF;
+    column-count: 3;
+    position: relative;
+    column-gap: 150px;
+    column-rule: silver solid 1px ;
+}
+.title{
+    font-size: 60px;
+    font-family:Helvetica;
+    font-weight: bolder;
+    text-align: center; 
+    column-span: all;
+}
+.name{
+    font-size: 40px;
+    font-family: 微軟正黑體;
+}
+.introduce{
+    font-size: px;
+    font-style: oblique;
+    
+}
+.w25{
+    font-size: 25px;
+}
+div{
+    font-size: 25px;
+}
+.subtitle{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.container {
+    width: 100%; 
+    background-color:#E0E0E0; 
+  }
+  
+  .skills {
+    text-align: right; 
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    color: white;
+  }
+  .c{width: 70%; background-color: 	#D9006C;}
+  .html {width: 80%; background-color: 	#02C874;} 
+  .css {width: 70%; background-color: 	#FF5809;} 
+  .js {width: 65%; background-color: 	#9F35FF;} 
+
+  .c{
+      animation-name:c ;
+      animation-duration:2s;
+      animation-fill-mode: both;
+  }
+
+  @keyframes c{
+      from{
+          width: 0%;
+      }
+
+      to{
+          width: 70%;
+      }
+  }
+  .html{
+    animation-name:html ;
+    animation-duration:2s;
+    animation-fill-mode: both;
+}
+
+@keyframes html{
+    from{
+        width: 0%;
+    }
+
+    to{
+        width: 80%;
+    }
+}
+.css{
+    animation-name:css ;
+    animation-duration:2s;
+    animation-fill-mode: both;
+}
+
+@keyframes css{
+    from{
+        width: 0%;
+    }
+
+    to{
+        width: 70%;
+    }
+}
+.js{
+    animation-name:js ;
+    animation-duration:2s;
+    animation-fill-mode: both;
+}
+
+@keyframes js{
+    from{
+        width: 0%;
+    }
+
+    to{
+        width: 65%;
+    }
+}
+.first{
+    position:  relative;
+    
+}
+.second{
+    position: relative;
+}
+.third{
+    position: relative;
+}
+
+   
